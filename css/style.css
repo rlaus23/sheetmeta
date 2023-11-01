@@ -178,7 +178,7 @@ h3 {
     display: inline-block;
     padding: 2px 20px;
     border-radius: 100px;
-    background-color: var(--primery);
+    background-color: #dc3545;
     margin-bottom: 10px;
 }
 
@@ -740,6 +740,21 @@ header.fixed .navbar {
     margin-bottom: 0;
 }
 
+
+.slider_video {
+    position: relative;
+    width: 100%; /* 비디오의 너비에 맞춰 조정 */
+    max-width: 100%; /* 최대 너비 설정 */
+    margin-top: 20px;
+  }
+  
+  /* 비디오 스타일 */
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
 /* hero slider images */
 .banner_section .banner_slider {
     display: flex;
@@ -787,18 +802,7 @@ header.fixed .navbar {
     border-radius: 23px;
 }
 
-.banner_section .banner_slider::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 46%;
-    transform: translate(-50%, -50%) rotate(-8deg);
-    width: 380px;
-    height: 380px;
-    background-color: var(--primery);
-    z-index: -5;
-    border-radius: 30px;
-}
+
 
 /* hero slider control dots */
 .banner_section .owl-dots {
@@ -1318,18 +1322,6 @@ iframe#youtubevideo {
     position: relative;
 }
 
-.service_blocks .inner_block .img::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 0;
-    transform: translate(-50%, -50%) rotate(-9deg);
-    width: 100%;
-    height: 90%;
-    background-color: var(--primery);
-    border-radius: 30px;
-}
 
 .service_blocks .inner_block.rotate_right .img::before {
     transform: translate(-50%, -50%) rotate(8deg);
@@ -1341,8 +1333,8 @@ iframe#youtubevideo {
 
 .service_blocks .inner_block .img img {
     position: relative;
-    border-radius: 20px;
-    border: solid 2px var(--black);
+    border-radius: 0%;
+   
 }
 
 .service_blocks .inner_block .star_img img {
@@ -1854,6 +1846,7 @@ iframe#youtubevideo {
 }
 
 
+
 /* -----------Interface-Section-Css-Start----------------- */
 
 /* interface wraper */
@@ -1865,7 +1858,7 @@ iframe#youtubevideo {
 /* interface images */
 .interface_section .owl-item .screen_frame_img img {
     transform: scale(.9);
-    border: 2px solid #000;
+    border: 0.5px solid #000;
     border-radius: 20px;
     transition: 1s all;
     margin: 0 auto;
@@ -1873,7 +1866,7 @@ iframe#youtubevideo {
 
 .interface_section .owl-item.center .screen_frame_img img {
     transform: scale(1);
-    border: 3px solid #000;
+    border: 2px solid #0F5132;
 }
 
 .interface_section .owl-dots {
