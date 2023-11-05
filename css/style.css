@@ -3806,11 +3806,11 @@ footer .download_side .app_btn li a img {
 
 .contact_form form .form-group .form-control {
     border-radius: 10px;
-    border: 1px solid #636778;
+    border: 1px solid #35690400;
     color: var(--text-white);
     height: 60px;
     padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.993);
 }
 
 .contact_form form .form-group .form-control::placeholder {
